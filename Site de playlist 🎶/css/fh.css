@@ -1,0 +1,36 @@
+body
+    {background-color: #FFAFCC !important;
+    margin: 40%;
+    background-image: url(https://ricebyrice.com/cdn/shop/files/DISCO-LSI_1_1080x.png?v=1701703278)!important;
+    }
+
+.menu
+    {height: 80px;
+    width: 100%;
+    }
+
+.navbar-brand
+    {font-family: 'Starborn', sans-serif;
+    }
+
+.pedro
+    {display: flex;
+    flex-direction: column;
+    }
+
+img
+    {height: 400px;
+    width: 440px;
+    margin-left: 10%;
+    margin-top: 200px;
+    border-radius: 20%;
+    }
+
+h1{
+    height: 500px;
+}
+
+.furia{
+    display: flex;
+    flex-direction: row;
+    }
