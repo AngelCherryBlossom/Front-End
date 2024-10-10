@@ -1,7 +1,9 @@
 body
-    {background-color: #FFAFCC !important;
+    {background-color: #FFAFCC !important; color: #fff;
     margin: 40%;
     background-image: url(https://ricebyrice.com/cdn/shop/files/DISCO-LSI_1_1080x.png?v=1701703278)!important;
+    background-repeat: no-repeat;
+    background-position: 100%;
     }
 
 .menu
@@ -18,19 +20,45 @@ body
     flex-direction: column;
     }
 
-img
-    {height: 400px;
+img {
+    height: 400px;
     width: 440px;
-    margin-left: 10%;
-    margin-top: 200px;
+    margin-left: 0%;
+    margin-top: 10%;
+    margin-right: 0px;
     border-radius: 20%;
     }
 
-h1{
-    height: 500px;
-}
+h1{ color: #000000 !important;
+    height: 50px;
+    }
 
-.furia{
+p{ color: #000000 !important;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+.gatos{
+    display: flex ;
+    flex-direction: row ;
+    }
+
+ol{
     display: flex;
     flex-direction: row;
+    }
+
+.texto{
+    margin-left: 60px;
+    margin-top: 150px;
+    }
+
+.oe {
+    display: flex;
+    flex-direction: row;
+    }
+
+.texto2{
+    margin-top: 150px;
+    margin-left: 60px;
+
     }
